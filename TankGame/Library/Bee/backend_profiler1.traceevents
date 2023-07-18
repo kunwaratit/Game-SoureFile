@@ -1,0 +1,440 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689676174915752, "dur":1737, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676174917520, "dur":67, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689676174917627, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689676174917682, "dur":495, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689676174918245, "dur":1335, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676174919581, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512697, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512712, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512716, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512716, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512718, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512718, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512719, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512720, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512721, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512757, "dur":10, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175512770, "dur":3605, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689676174917921, "dur":1736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174919665, "dur":3900, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174923567, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689676174923573, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174923788, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174923858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174924969, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174928541, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174928578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174928610, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174932470, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174932512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174932547, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174935501, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689676174935550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174935594, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689676174936841, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174936875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174936901, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174938333, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689676174938378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174938586, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689676174942069, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676174943531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174943564, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676174946726, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689676174946775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174947017, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689676174948963, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":1, "ts":1689676174949010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174949221, "dur":20539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":1, "ts":1689676174969790, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174969960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174969993, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174975536, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174975560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174975580, "dur":8391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1689676174983992, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1689676174984023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676174984054, "dur":28904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1689676175012988, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175013165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175013191, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175013764, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":1, "ts":1689676175013820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175014022, "dur":10250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":1, "ts":1689676175024294, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175024911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175024937, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175027098, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175027227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175027252, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175027663, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175027769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175027791, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175028265, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175028373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175028394, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175028940, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175029153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175029175, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175030408, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175030558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175030580, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175031042, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175031185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175031257, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175031770, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175031902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175031922, "dur":435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175032474, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175032838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175032859, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175033947, "dur":1640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175035611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175035645, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175036088, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175036206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175036230, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175036651, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175037064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175037098, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175038825, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175039700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175039727, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175042509, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175042874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175042903, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175043864, "dur":12692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175056583, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175056620, "dur":153115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175209757, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175209946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175209983, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175210749, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175211144, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175211200, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175213140, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175213311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175213346, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175213922, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175214108, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175214162, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175214661, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175214778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175214812, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175215265, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175215397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175215429, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175215893, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175216032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175216070, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175216646, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175217327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175217346, "dur":6556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175223933, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175224112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175224139, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175224835, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175225023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175225046, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175225913, "dur":2635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175228563, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175228589, "dur":12017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175240624, "dur":2034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175242673, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175242700, "dur":10316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175253034, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175253815, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175253842, "dur":4299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689676175258163, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1689676175258200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175258233, "dur":23108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1689676175281361, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689676175281479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175281512, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689676175281925, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676175282020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175282049, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689676175282431, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689676175282464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689676175282493, "dur":229001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689676175511518, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1689676175511524, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174917969, "dur":1758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174919728, "dur":3904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174923637, "dur":1768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174925419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174925468, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174930244, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689676174930286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174930520, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689676174932869, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1689676174932899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174933084, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1689676174936167, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689676174936213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174936256, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689676174939342, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174939991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174940013, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174942379, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174942500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174942524, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174942951, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174943071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174943091, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676174943466, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank.x86_64" }}
+,{ "pid":12345, "tid":2, "ts":1689676174943525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174943540, "dur":23333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank.x86_64" }}
+,{ "pid":12345, "tid":2, "ts":1689676174966904, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":2, "ts":1689676174966948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676174966986, "dur":53244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":2, "ts":1689676175020262, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1689676175020296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175020334, "dur":103522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1689676175123885, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175124023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175124048, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175124453, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175124564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175124585, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175124979, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175125099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175125123, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175125831, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175126159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175126185, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175127493, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175127610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175127633, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175128008, "dur":13491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175141518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175141550, "dur":88423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175229994, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175230136, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175230164, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175230744, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175230985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175231010, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175232936, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175233085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175233107, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175233919, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175234377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175234401, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175236739, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175237096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175237120, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175239348, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175239640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175239665, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175240535, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175240713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175240733, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175241504, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175241710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175241729, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175242435, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1689676175242458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175242486, "dur":6635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1689676175249144, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689676175249178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175249212, "dur":17955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689676175267188, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175267709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175267734, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689676175268749, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1689676175268777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175268800, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1689676175269606, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689676175269626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175269642, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689676175271167, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1689676175271191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175271210, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1689676175272475, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1689676175272501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175272564, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1689676175274730, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1689676175274753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689676175274772, "dur":107380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1689676175382167, "dur":129840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174918098, "dur":1665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174919763, "dur":3863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174923633, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689676174924392, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174924705, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689676174926645, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689676174926687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174926933, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689676174927889, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689676174927927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174927974, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689676174930842, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689676174930878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174930924, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689676174932280, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689676174932324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174932430, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689676174935389, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689676174935435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174935478, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689676174937661, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689676174937697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174937897, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689676174939584, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689676174939812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174939846, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689676174941095, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689676174941240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174941308, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689676174943117, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/UnityPlayer.so" }}
+,{ "pid":12345, "tid":3, "ts":1689676174943194, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689676174943223, "dur":561482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/UnityPlayer.so" }}
+,{ "pid":12345, "tid":3, "ts":1689676175504740, "dur":7615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676174918254, "dur":1542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676174919796, "dur":3794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676174923595, "dur":7605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676174931217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676174931241, "dur":24716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676174955977, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1689676174956028, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676174956078, "dur":75353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1689676175031460, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175031642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175031685, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175032367, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175032494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175032519, "dur":435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175032967, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175033151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175033172, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175033834, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175033999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175034086, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175034660, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175034977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175035010, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175036032, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175036408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175036437, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175037814, "dur":5449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175043286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175043319, "dur":18143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175061485, "dur":2969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175064477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175064512, "dur":9778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175074312, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175074469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175074508, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175074964, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175075094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175075127, "dur":402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175075542, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175075667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175075699, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175076105, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175076244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175076350, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175076846, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175077011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175077029, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175077956, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175078087, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175078139, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175078559, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175078676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175078708, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175079105, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175079293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175079323, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175079936, "dur":2793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175082753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175082788, "dur":36553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175119360, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175119604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175119630, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175120494, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175120622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175120643, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175121061, "dur":9127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175130283, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175130308, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175134465, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175134798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175134822, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175136139, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175136275, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175136308, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175136792, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175136948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175136982, "dur":8345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175145348, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175145504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175145536, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175146133, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175146393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175146418, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175147354, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175147875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175147903, "dur":4951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175152873, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175153003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175153028, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175154151, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175154536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175154558, "dur":13710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175168288, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1689676175168306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175168328, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1689676175169752, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175170144, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175170187, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175172030, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175172141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175172167, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175175992, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175176147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175176172, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175176628, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175176799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175176821, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175177412, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175177515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175177536, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175177935, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175178120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175178140, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175178721, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175178837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175178857, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175179270, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175179376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175179395, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175183308, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175183429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175183455, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175183890, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175183995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175184063, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175184497, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175185057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175185078, "dur":9765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175194861, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175195724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175195757, "dur":16311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175212094, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175212730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175212767, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175214511, "dur":1872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175216408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175216445, "dur":35602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689676175252070, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689676175252108, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175252142, "dur":73408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689676175325571, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1689676175325691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689676175325723, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/atit/Desktop/Game/Game/ShooterTank/Tank_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1689676175326124, "dur":185683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689676175518667, "dur":3027, "ph":"X", "name": "ProfilerWriteOutput" }
+,
